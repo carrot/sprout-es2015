@@ -1,0 +1,26 @@
+{
+  "name": "REPLACE",
+  "version": "0.0.0",
+  "description": "REPLACE",
+  "main": "lib",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "<%= author %>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "6.x",
+    "babel-preset-es2015-node5": "1.x"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node5"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "6.x",
+    "chai": "3.x",
+    "mocha": "2.x"
+  }
+}

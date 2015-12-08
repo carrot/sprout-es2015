@@ -5,7 +5,8 @@
   "main": "lib",
   "scripts": {
     "start": "node index.js",
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha",
+    "lint": "./node_modules/.bin/eslint lib/*"
   },
   "author": "<%= github_username %>",
   "license": "MIT",
@@ -20,7 +21,9 @@
   },
   "devDependencies": {
     "babel-cli": "6.x",
+    "babel-eslint": "4.x",
     "chai": "3.x",
+    "eslint": "1.x",
     "mocha": "2.x"
   }
 }

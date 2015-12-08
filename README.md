@@ -11,7 +11,7 @@ This is [carrot](http://carrot.is)'s starter template for node projects written 
 
 `sprout init es2015 <project name>`
 
-Once you have initialized the project, you can run it with `npm start` and run tests with `npm test`.
+Once you have initialized the project, you can run it with `npm start`, run tests with `npm test`, and lint with `npm run lint`.
 
 ### Options
 

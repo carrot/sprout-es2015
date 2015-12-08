@@ -1,13 +1,13 @@
 {
-  "name": "REPLACE",
+  "name": "<%= name %>",
   "version": "0.0.0",
-  "description": "REPLACE",
+  "description": "<%= description %>",
   "main": "lib",
   "scripts": {
     "start": "node index.js",
     "test": "./node_modules/.bin/mocha"
   },
-  "author": "<%= author %>",
+  "author": "<%= github_username %>",
   "license": "MIT",
   "dependencies": {
     "babel-core": "6.x",

@@ -1,6 +1,6 @@
-var chai = require('chai');
+var chai = require('chai')
 
-chai.should();
+chai.should()
 
 // include any chai plugins here as such
-// chai.use(plugin);
+// chai.use(plugin)

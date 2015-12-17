@@ -9,7 +9,7 @@ If you are opening an issue about a bug, make sure that you include clear steps 
 ### Getting Set Up
 
 - Clone the project down
-- Make sure [nodejs](http://nodejs.org) has been installed and is above version `0.10.x`
+- Make sure [nodejs](http://nodejs.org) has been installed and is above version `5.2.x`
 - Run `npm install`
 - Put in work
 
@@ -21,7 +21,7 @@ To run the test suite, make sure you have installed mocha (`npm install mocha -g
 
 ### Code Style
 
-To keep a consistent coding style in the project, we're using ES6 which is transpiled with Babel. While we currently do not strictly follow one style guide, keep things consistent with the rest of the project as much as possible. For any inline documentation in the code, we're using [JSDoc](http://usejsdoc.org/).
+This project uses ES6, transpiled by babel for tests and on deploy. To keep a consistent coding style in the project, we are using [standard js](http://standardjs.com/). In order for tests to pass, all code must pass standard js linting. This project also uses an [editorconfig](http://editorconfig.org/). It will make life much easier if you have the [editorconfig plugin](http://editorconfig.org/#download) for your text editor. For any inline documentation in the code, we're using [JSDoc](http://usejsdoc.org/).
 
 ### Commit Cleanliness
 

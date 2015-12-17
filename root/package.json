@@ -4,16 +4,10 @@
   "description": "<%= description %>",
   "main": "lib",
   "scripts": {
-    "start": "node index.js",
-    "test": "./node_modules/.bin/mocha",
-    "lint": "./node_modules/.bin/eslint lib/*"
+    "test": "./node_modules/.bin/standard && ./node_modules/.bin/mocha",
   },
   "author": "<%= github_username %>",
   "license": "MIT",
-  "dependencies": {
-    "babel-core": "6.x",
-    "babel-preset-es2015-node5": "1.x"
-  },
   "babel": {
     "presets": [
       "es2015-node5"
@@ -21,9 +15,10 @@
   },
   "devDependencies": {
     "babel-cli": "6.x",
-    "babel-eslint": "4.x",
+    "babel-core": "6.x",
+    "babel-preset-es2015-node5": "1.x",
     "chai": "3.x",
-    "eslint": "1.x",
-    "mocha": "2.x"
+    "mocha": "2.x",
+    "standard": "5.x"
   }
 }

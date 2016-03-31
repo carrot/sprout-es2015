@@ -4,7 +4,7 @@
   "description": "<%= description %>",
   "main": "lib",
   "scripts": {
-    "test": "./node_modules/.bin/standard && ./node_modules/.bin/mocha",
+    "test": "ava",
   },
   "author": "<%= github_username %>",
   "license": "MIT",
@@ -14,11 +14,16 @@
     ]
   },
   "devDependencies": {
+    "ava": "0.13.x",
     "babel-cli": "6.x",
     "babel-core": "6.x",
     "babel-preset-es2015-node5": "1.x",
-    "chai": "3.x",
-    "mocha": "2.x",
     "standard": "5.x"
+  },
+  "ava": {
+    "require": [
+      "babel-core/register"
+    ],
+    "verbose": "true"
   }
 }

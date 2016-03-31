@@ -1,10 +1,6 @@
-/* global describe, it */
-
 import example from '../lib/example'
+import test from 'ava'
 
-describe('example', () => {
-  it('exports correctly', () => {
-    example.should.be.a('string')
-    example.should.eql('wow es6!')
-  })
+test('example exports correctly', (t) => {
+  t.eql(example, 'wow es6!')
 })

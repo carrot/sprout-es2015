@@ -4,7 +4,7 @@ This is [carrot](http://carrot.is)'s starter template for node projects written 
 
 ### Installation
 
-- `npm i sprout -g`
+- `npm i sprout-cli -g`
 - `sprout add es2015 https://github.com/carrot/sprout-es2015.git`
 
 ### Usage

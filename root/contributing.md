@@ -15,9 +15,9 @@ If you are opening an issue about a bug, make sure that you include clear steps 
 
 ### Testing
 
-This project is constantly evolving, and to ensure that things are secure and working for everyone, we need to have tests. If you are adding a new feature, please make sure to add a test for it. The test suite for this project uses [mocha](http://visionmedia.github.io/mocha/) and [should](https://github.com/visionmedia/should.js/)/
+This project is constantly evolving, and to ensure that things are secure and working for everyone, we need to have tests. If you are adding a new feature, please make sure to add a test for it. The test suite for this project uses [ava](https://github.com/sindresorhus/ava).
 
-To run the test suite, make sure you have installed mocha (`npm install mocha -g`), then you can use the `npm test` or simply `mocha` command to run the tests.
+To run the test suite just use `npm test` or install ava globally and use the `ava` command to run the tests.
 
 ### Code Style
 

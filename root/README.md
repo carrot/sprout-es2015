@@ -1,6 +1,6 @@
 # <%= name %>
 
-[![npm](http://img.shields.io/npm/v/<%= name %>.svg?style=flat)](https://badge.fury.io/js/<%= name %>) <% if (travis) { %>[![tests](http://img.shields.io/travis/<%= github_username %>/<%= name %>/master.svg?style=flat)](https://travis-ci.org/<%= github_username %>/<%= name %>)<% } %> [![dependencies](http://img.shields.io/gemnasium/<%= github_username %>/<%= name %>.svg?style=flat)](https://gemnasium.com/<%= github_username %>/<%= name %>)
+[![npm](http://img.shields.io/npm/v/<%= name %>.svg?style=flat)](https://badge.fury.io/js/<%= name %>) <% if (travis) { %>[![tests](http://img.shields.io/travis/<%= github_username %>/<%= name %>/master.svg?style=flat)](https://travis-ci.org/<%= github_username %>/<%= name %>)<% } %> [![dependencies](http://img.shields.io/david/<%= github_username %>/<%= name %>.svg?style=flat)](https://david-dm.org/<%= github_username %>/<%= name %>)
 
 <%= description %>
 

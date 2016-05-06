@@ -3,4 +3,5 @@ test
 Makefile
 contributing.md
 .editorconfig
+.babelrc
 <% if (travis) { %>.travis.yml<% } %>
